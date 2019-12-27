@@ -1,0 +1,18 @@
+#! /bin/sh
+echo
+echo '-> Checking for libmikmod...'
+libmikmod-config --version 1> /dev/null || {
+echo '** Sorry, but building this game needs the MikMod library.'
+echo '** Please read the README file, download libmikmod and install it.'
+echo '** If you already installed it, make sure that a program called'
+echo '** libmikmod-config is in your PATH.'
+exit 1
+}
+VERSION=$(libmikmod-config --version)
+echo "-> Found version $VERSION."
+if [ "$VERSION" != "3.1.7" ] ; then
+echo '** If your version is older that 3.1.7, you may encounter some'
+echo '** problems during the compilation. Check the README file and upgrade.'
+sleep 5
+fi
+echo

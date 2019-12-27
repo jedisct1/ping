@@ -1,0 +1,11 @@
+Still missing in the Linux port :
+
+- Joystick and happystick support (in fact, their support is included in
+that version, but I have no joystick nor happystick in order to test if it
+is all right. May someone try and tell me what happened ?),
+- Bug fixes that were also missing in the DOS version.
+- Work properly with Esound and Alsa.
+- X11 port.
+
+If you can help, please write to Frank Denis <j@pureftpd.org>
+

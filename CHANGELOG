@@ -1,0 +1,15 @@
+Version 0.5 : Initial release.
+
+Version 0.9 : Sound support.
+
+Version 0.95: Scrolltext made up-to-date.
+              Improved Makefile.
+	      Cheat codes handling.
+	      Bug fixes with the sound effects.
+	      Cleaned permissions of the source files.
+
+Version 0.98: vsync() is now directly using I/O ports instead of
+              svgalib because of incompatibilities with modern adapters.
+              ioperm() is called in order to get access to I/O ports on
+              modern Linux kernels.
+              Various minor code fixups.

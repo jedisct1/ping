@@ -1,0 +1,6 @@
+#define TEXTURE1_WIDTH 80
+#define TEXTURE1_HEIGHT 80
+#define TEXTURE1_WIDTH_IN_BYTES (TEXTURE1_WIDTH / 4)
+#define TEXTURE1_ONEPLANE (TEXTURE1_WIDTH * TEXTURE1_HEIGHT / 4)
+
+extern const unsigned char texture1[];
