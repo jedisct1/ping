@@ -1,4 +1,4 @@
-# Makefile for Ping Linux by Jedi/Sector One <j@pureftpd.org>
+# Makefile for Ping Linux
 
 # Name of the executable file
 NAME 	= ping_game
