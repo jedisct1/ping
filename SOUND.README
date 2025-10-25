@@ -6,9 +6,9 @@
 
 #define MM_FRAGSIZE "8"
 
-- Replace "8" by another higher value, let's say 12
+- Replace "8" with a higher value, let's say 12
 - Recompile
-- Try to find the smaller number that features a great sound for you.
+- Try to find the smallest number that provides great sound for you.
 
   If the screen stays black and nothing happens when you are trying to
 run the game, please check that the 'esd' daemon is not running.
