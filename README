@@ -2,27 +2,27 @@
   Hi and welcome to Ping! for Linux, a tiny game that we really wanted to
 see on Linux because we had a lot of fun with it.
   
-  Okee ! Before all, here are the prerequisites :
+  Okay! First of all, here are the prerequisites:
   
 - A Linux kernel,
 - The SVGA Library. svgalib-1.3.1 is known to work perfectly with Ping! ,
 but any release should be fine, as Ping! does not need it except to
-initialize the graphic mode and read the keyboard. If your SVGA library is
-missing, get it from http://www.svgalib.org . If you are a Redhat geek, do
+initialize the graphic mode and read the keyboard. If you don't have the SVGA library,
+get it from http://www.svgalib.org . If you are a Red Hat user, do
 not forget to install the svgalib-devel package in order to compile svgalib
 apps,
 
-- Gcc. Ping! will not compile with another tool because it heavily relies on
-their extensions and optimisations.
+- GCC. Ping! will not compile with another tool because it heavily relies on
+its extensions and optimizations.
 
 - LibMikmod. Grab it from http://mikmod.darkorb.net . Any recent version
 should be fine.
 
-  To compile Ping!, just type :
-  
+  To compile Ping!, just type:
+
   make all
 
-  and wait a bit, especially if you got a computer with low memory left or a
+  and wait a bit, especially if you have a computer with low memory left or a
 slow CPU. Some files can be slow to compile, do not panic, just take a cup
 of coffee.
 
@@ -30,27 +30,27 @@ of coffee.
 problems, but this is related to the svga library. Ping! does not accept any
 input that might fill in an internal buffer, so no security problem should
 occur.
-  So, you are root, kewl. Now, be sure you are on a console. Yes, a text
+  So, you are root, cool. Now, be sure you are on a console. Yes, a text
 console, not a graphic terminal emulator. Yes, the plain text console of
-Linux. Ping! does not run under X-Window.
-  Now, type :
-  
+Linux. Ping! does not run under X.
+  Now, type:
+
   ./ping_game
   
   and enjoy. Yes, the name is 'ping_game' because every Unix has a command
 called 'ping' that is another game (the goal is to find the right options to
-crash Windoz machines) .
+crash Windows machines).
 
   If it doesn't work, double check that the svgalib_helper module is installed
 and loaded:
 
   modprobe svgalib_helper
   
-  *RUN THAT GAME IN ITS OWN DIRECTORY* because Ping! needs some other files.
+  *RUN THE GAME IN ITS OWN DIRECTORY* because Ping! needs some other files.
 And no, there is no installation script nor proper directory management for
 data because this is not a stable release.
   
-  Here are the keyboard controls :
+  Here are the keyboard controls:
   
     AZERTY             QWERTY
 
@@ -69,19 +69,19 @@ data because this is not a stable release.
       P ................ P ..................................... Pause
       Echap ......... Escape .................................... Exit
       
-  Do not abort the game after the first ball : play a bit against the
+  Do not abort the game after the first ball: play a bit against the
 computer or a human player in order to discover bonuses and carebears.
-  When the ball is glued or to serve it, just use the Space or Enter key.
+  When the ball is glued or ready to serve, just use the Space or Enter key.
   
-  Credits for this game are going to :
+  Credits for this game are going to:
   
 Frank DENIS aka Jedi/Sector One (code)
 Loukouman AMIDOU aka Deneb/Fantasy (gfx)
 Karim LOZES aka Remalon/Fantasy (soundtrack)
 
-  All sounds were sampled with ST-Replay on Atari, all graphics were draw
-with Neochrome Master on Atari, code generators were done in GfA Basic and
-all was coded exactly like we designed demos on Atari. Because the Atari ST
+  All sounds were sampled with ST-Replay on Atari, all graphics were drawn
+with Neochrome Master on Atari, code generators were created in GfA Basic and
+everything was coded exactly like we designed demos on Atari. Because the Atari ST
 will always be our best computing souvenir.
 
   Feel free to send me patches (bug fixes or improvements) and comments about
