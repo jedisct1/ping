@@ -264,7 +264,7 @@
 
 /* ($B,$8B) Accumulator value (low) */
 /* Bits 0-8 - Fractional portion */
-/* Bits 9-15 - Integer portion of low adress (a6-a0) */
+/* Bits 9-15 - Integer portion of low address (a6-a0) */
 
 /* ($C,$8C) Pan (balance) position */
 /* Bits 0-3 - Balance position  0=full left, 0x0f=full right */
