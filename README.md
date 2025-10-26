@@ -19,9 +19,9 @@ its extensions and optimizations.
 should be fine.
 
   To compile Ping!, just type:
-
+```bash
   make all
-
+```
   and wait a bit, especially if you have a computer with low memory left or a
 slow CPU. Some files can be slow to compile, do not panic, just take a cup
 of coffee.
@@ -34,18 +34,18 @@ occur.
 console, not a graphic terminal emulator. Yes, the plain text console of
 Linux. Ping! does not run under X.
   Now, type:
-
+```bash
   ./ping_game
-  
+```
   and enjoy. Yes, the name is 'ping_game' because every Unix has a command
 called 'ping' that is another game (the goal is to find the right options to
 crash Windows machines).
 
   If it doesn't work, double check that the svgalib_helper module is installed
 and loaded:
-
+```bash
   modprobe svgalib_helper
-  
+  ```
   *RUN THE GAME IN ITS OWN DIRECTORY* because Ping! needs some other files.
 And no, there is no installation script nor proper directory management for
 data because this is not a stable release.
